@@ -121,7 +121,8 @@ io2=>inputoutput: Result of Pi: Res
 
 op1=>operation: posSum = posSum + 1/(2N-1)
 op2=>operation: negSum = negSum + 1/(2N-1)
-op3=>operation: Res = 4 * (posSum - negSum)
+op3=>operation: N = N + 1
+op4=>operation: Res = 4 * (posSum - negSum)
 
 cond1=>condition: N is odd
 cond2=>condition: N >= MaxN
@@ -129,10 +130,10 @@ cond2=>condition: N >= MaxN
 e=>end
 
 st->io1->cond1
-cond1(no)->op2->cond2
-cond1(yes)->op1->cond2
+cond1(no)->op2->op3->cond2
+cond1(yes)->op1->op3->cond2
 cond2(no)->cond1
-cond2(yes)->op3->io2->e
+cond2(yes)->op4->io2->e
 ```
 
 ### 2. Write a program
