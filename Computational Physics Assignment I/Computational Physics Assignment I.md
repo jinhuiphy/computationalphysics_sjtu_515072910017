@@ -1,24 +1,31 @@
 ﻿# Computational Physics Assignment I
 
 学号：515072910017
+
 姓名：李进辉
-Note：All codes are in C language, using -std=c99.
+
+Note：All codes are in C language, using -std=c99 standard.
 
 ---
 
-##1. Detemine the value of A
+## 1. Detemine the value of A
 
 e = 14  ;f = 0.625   
 so mantissa = 1.f = 1.625000  ;true exponent =14 - 127 = -113  
 so the full value:  $$A = 1.625000 * 2^{-113}$$
 
 
-##2. Find an equivalent formula 
+## . Find an equivalent formula 
+
 （a）$$ln (1+1/x)$$
+
 （b）$$\frac{1}{\sqrt{x^2+1}+x}$$
+
 （c）$$cos(2x)$$
+
 （d）$$cos(\frac{x}{2})$$
-##3. Write a program to determine limits
+
+## 3. Write a program to determine limits
 - For single precision:
 
 ```
@@ -38,9 +45,9 @@ int main(){
 
 **Result:**
 
-![float_under](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/float_under.jpg)
+<center>![float_under](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/float_under.jpg)
 
-![float_over](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/float_over.jpg)
+<center>![float_over](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/float_over.jpg)
 
 As we can see int the result, the underflow of float is **1.401298e-045**, the overflow is **1.701412e+0.38**.
 
@@ -64,9 +71,9 @@ int main(){
 ```
 **Result:**
 
-![double-under](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/double_under.jpg)
+<center>![double-under](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/double_under.jpg)
 
-![double-over](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/double_over.jpg)
+<center>![double-over](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/double_over.jpg)
 
 As we can see int the result, the underflow of float is **4.940656e-324**, the overflow is **8.988466e+307**.
 
@@ -102,7 +109,7 @@ int main(){
 ```
 We can get the double precision: **2.220446e-016**
 
-##5. The value of $\pi$
+## 5. The value of $\pi$
 
 ### 1. Describe algorithm
  - **Step:**
@@ -150,11 +157,11 @@ int main(){
 }
 ```
 The relative error is: $$\frac{Res-\pi}{\pi}$$
-###3. calculate $\pi$ and relative error
+### 3. calculate $\pi$ and relative error
  - n=10, $\pi$ = 3.252367, relative error = 3.526%
  - n=20, $\pi$ = 3.194189, relative error = 1.674%
  - n=20, $\pi$ = 3.167231, relative error = 0.816%
  - n=1000, $\pi$ = 3.142588, relative error = 0.032%
 
-###4. Comment
+### 4. Comment
 As we can see, the relative error decreases as the n increases, in order to get a more accurate solution, we have to increase n as much as we can.
