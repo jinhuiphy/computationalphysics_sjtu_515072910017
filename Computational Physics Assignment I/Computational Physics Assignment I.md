@@ -45,9 +45,9 @@ int main(){
 
 **Result:**
 
-<center>![float_under](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/float_under.jpg)</center>
+![float_under](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/float_under.jpg)
 
-<center>![float_over](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/float_over.jpg)</center>
+![float_over](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/float_over.jpg)
 
 As we can see int the result, the underflow of float is **1.401298e-045**, the overflow is **1.701412e+0.38**.
 
@@ -71,9 +71,9 @@ int main(){
 ```
 **Result:**
 
-<center>![double-under](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/double_under.jpg)</center>
+![double-under](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/double_under.jpg)
 
-<center>![double-over](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/double_over.jpg)</center>
+![double-over](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/double_over.jpg)
 
 As we can see int the result, the underflow of float is **4.940656e-324**, the overflow is **8.988466e+307**.
 
