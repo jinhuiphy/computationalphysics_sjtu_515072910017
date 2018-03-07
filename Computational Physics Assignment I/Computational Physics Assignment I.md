@@ -36,8 +36,13 @@ int main(){
 }
 ```
 
-As we can see int the result, the underflow of float is **1.401298e-045**, the overflow is **1.701412e+0.38**.
+**Result:**
 
+![float_under](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/float_under.jpg)
+
+![float_over](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/float_over.jpg)
+
+As we can see int the result, the underflow of float is **1.401298e-045**, the overflow is **1.701412e+0.38**.
 
 ----------
 
@@ -57,6 +62,12 @@ int main(){
 	return 0;
 }
 ```
+**Result:**
+
+![double-under](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/double_under.jpg)
+
+![double-over](https://github.com/jinhuiphy/computationalphysics_sjtu_515072910017/raw/master/Computational%20Physics%20Assignment%20I/Picture/double_over.jpg)
+
 As we can see int the result, the underflow of float is **4.940656e-324**, the overflow is **8.988466e+307**.
 
 ## 4. Write a program to determine your machine precision
@@ -74,7 +85,6 @@ int main(){
 }
 ```
 We can get the single precision: **1.192093e-007**
-
 
 ----------
 - For double precision:
