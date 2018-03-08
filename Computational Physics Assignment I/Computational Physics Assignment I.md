@@ -28,9 +28,8 @@ so the full value:  $$A = 1.625000 * 2^{-113}$$
 ## 3. Write a program to determine limits
 - For single precision:
 
-```
+```c
 #include<stdio.h>
-
 int main(){
 	int N = 200;
 	float under = 1, over = 1;
@@ -55,9 +54,8 @@ As we can see int the result, the underflow of float is **1.401298e-045**, the o
 
 
 - For double precision:
-```
+```c
 #include<stdio.h>
-
 int main(){
 	int N = 1500;
 	double under = 1, over = 1;
@@ -79,9 +77,8 @@ As we can see int the result, the underflow of float is **4.940656e-324**, the o
 
 ## 4. Write a program to determine your machine precision
 - For single precision:
-```
+```c
 #include<stdio.h>
-
 int main(){
 	float eps = 1.0;
 	while((1 + eps/2) != 1){
@@ -95,9 +92,8 @@ We can get the single precision: **1.192093e-007**
 
 ----------
 - For double precision:
-```
+```c
 #include<stdio.h>
-
 int main(){
 	double eps = 1.0;
 	while((1 + eps/2) != 1){
@@ -137,9 +133,8 @@ cond2(yes)->op4->io2->e
 ```
 
 ### 2. Write a program
-```
+```c
 #include<stdio.h>
-
 int main(){
 	int MaxN;
 	float posSum = 0;
