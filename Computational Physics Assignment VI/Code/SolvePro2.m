@@ -1,20 +1,21 @@
 % % CodeName: SolvePro2.m
 % % This code is meant to calculate the error
 
-% ³õÊ¼»¯²ÎÊı
+% åˆå§‹åŒ–å‚æ•°
 f = @(x) (1+(cos(x)).^2).^(1./2);
 a = 0; b = pi / 4;
 N = [1 2 4 8 16 32];
-% ¼ÆËãÎó²î
+exact = Simpson(f, a, b, 1000); % å–1000ä½ä¸ºç²¾ç¡®å€¼
+% è®¡ç®—è¯¯å·®
 err_Sim = zeros(1, length(N));
 for i = 1:length(N)
     I_sim = Simpson_3_8(f, a, b, 3*N(i));
     h = (b-a) / (3 * N(i));
-    err_Sim(1, i) = abs(I_sim-exact);   % ×¢ÒâÕâÀïÊÇÎó²î£¬¶ø²»ÊÇÏà¶ÔÎó²î
+    err_Sim(1, i) = abs(I_sim-exact);   % æ³¨æ„è¿™é‡Œæ˜¯è¯¯å·®ï¼Œè€Œä¸æ˜¯ç›¸å¯¹è¯¯å·®
     fprintf("3N = %d, Es = %e, h^4 = %e, h^5 = %e\n", 3*N(i), err_Sim(1, i), h^4, h^5);
 end
 
-exact = Simpson(f, a, b, 1000); % È¡1000Î»Îª¾«È·Öµ
+exact = Simpson(f, a, b, 1000); % å–1000ä½ä¸ºç²¾ç¡®å€¼
 begin = 8; ending = 16;
 error = zeros(1, ending-begin);
 for i = begin:ending
