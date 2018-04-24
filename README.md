@@ -12,3 +12,5 @@ Assignment 4:[Computational Physics Assignment IV](https://www.zybuluo.com/wuliz
 Assignment 5:[Computational Physics Assignment V](https://www.zybuluo.com/wulizha/note/1100701)
 
 Assignment 6:[Computational Physics Assignment VI](https://www.zybuluo.com/wulizha/note/1107272)
+
+Assignment 7:[Computational Physics Assignment VII](https://www.zybuluo.com/wulizha/note/1117141)
