@@ -14,3 +14,5 @@ Assignment 5:[Computational Physics Assignment V](https://www.zybuluo.com/wulizh
 Assignment 6:[Computational Physics Assignment VI](https://www.zybuluo.com/wulizha/note/1107272)
 
 Assignment 7:[Computational Physics Assignment VII](https://www.zybuluo.com/wulizha/note/1117141)
+
+Assignment 8:[Computational Physics Assignment VIII](https://www.zybuluo.com/wulizha/note/1136362)
