@@ -8,6 +8,9 @@ x1 = x0/norm(x0,2);disp(x1)
 x2 = A*x1;disp(x2)
 alpha2 = x1'*x2;disp(alpha2)
 x2 = x2/norm(x2,2);disp(x2)
+x3 = A*x2;disp(x3)
+alpha3 = x2'*x3;disp(alpha3)
+x3 = x3/norm(x3,2);disp(x3)
 %% Part (b)
 fprintf("Part (b)\n");
 [e_val, e_vec, k] = PowerMethod(A, x0, 1e-4, 50);
