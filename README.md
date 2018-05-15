@@ -17,4 +17,4 @@ Assignment 7:[Computational Physics Assignment VII](https://www.zybuluo.com/wuli
 
 Assignment 8:[Computational Physics Assignment VIII](https://www.zybuluo.com/wulizha/note/1136362)
 
-Assignment 8:[Computational Physics Assignment IX](https://www.zybuluo.com/wulizha/note/1144455)
+Assignment 9:[Computational Physics Assignment IX](https://www.zybuluo.com/wulizha/note/1144455)
