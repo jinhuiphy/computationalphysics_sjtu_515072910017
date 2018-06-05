@@ -22,3 +22,5 @@ Assignment 9:[Computational Physics Assignment IX](https://www.zybuluo.com/wuliz
 Assignment 10:[Computational Physics Assignment X](https://www.zybuluo.com/wulizha/note/1149400)
 
 Assignment 11:[Computational Physics Assignment XI](https://www.zybuluo.com/wulizha/note/1164680)
+
+Assignment 12:[Computational Physics Assignment XII](https://www.zybuluo.com/wulizha/note/1167527)
