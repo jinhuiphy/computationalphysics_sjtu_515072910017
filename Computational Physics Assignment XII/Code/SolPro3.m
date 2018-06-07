@@ -9,7 +9,7 @@ for k = 1:40
     yCor(1) = 0;
     Rand = rand(N,1);
     for i=1:N
-        if Rand(i) < 0.2
+        if Rand(i) < 0.02
             xCor(i+1) = 0;
             yCor(i+1) = 0.25*yCor(i)-0.4;
         elseif Rand(i) < 0.86
