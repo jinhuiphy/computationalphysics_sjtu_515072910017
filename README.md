@@ -1,5 +1,6 @@
 # computationalphysics_sjtu_515072910017
-计算物理作业列表
+
+SJTU - Computational Physics Homework Link
 
 Assignment 1:[Computational Physics Assignment I](https://www.zybuluo.com/wulizha/note/1063703)
 
@@ -26,3 +27,5 @@ Assignment 11:[Computational Physics Assignment XI](https://www.zybuluo.com/wuli
 Assignment 12:[Computational Physics Assignment XII](https://www.zybuluo.com/wulizha/note/1167527)
 
 Assignment 13:[Computational Physics Assignment XIII](https://www.zybuluo.com/wulizha/note/1179056)
+
+Assignment 14:[Computational Physics Assignment XIV](https://www.zybuluo.com/wulizha/note/1183828)
